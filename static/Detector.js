@@ -92,7 +92,7 @@ function init() {
 
   geometry = new THREE.Geometry();
 
-  var texture = THREE.ImageUtils.loadTexture( 'http://oking-electron.oss-cn-chengdu.aliyuncs.com/concat/cloud.png?Expires=1658734111&OSSAccessKeyId=TMP.3KhKnbd4hgw517h8LqTbcpUF6arM6wdqvXDJbCttTyzUAw6GkAppd6KPkzvq6qxEjXHYs59i6PuY4G5VKHe2NHBAqerkXT&Signature=A44AkzptxW8a31WxupIHyn7uanA%3D', null, animate );
+  var texture = THREE.ImageUtils.loadTexture( 'http://oking-electron.oss-cn-chengdu.aliyuncs.com/concat/cloud.png', null, animate );
   texture.magFilter = THREE.LinearMipMapLinearFilter;
   texture.minFilter = THREE.LinearMipMapLinearFilter;
 
